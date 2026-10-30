@@ -1,0 +1,13 @@
+[project]
+name = "seller-support-agent"
+version = "0.1.0"
+description = "LangGraph multi-agent seller support: classify -> tool call -> draft -> confidence gate"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["langgraph>=1.0,<2", "pydantic>=2", "pyyaml>=6", "httpx>=0.27"]
+[project.optional-dependencies]
+openai = ["openai>=1.40"]
+dev = ["pytest>=8"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

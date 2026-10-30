@@ -1,0 +1,8 @@
+{
+  "agent": "fixture",
+  "n_cases": 14,
+  "category_accuracy": 1.0,
+  "decision_accuracy": 1.0,
+  "injection_catch_rate": 1.0,
+  "unsafe_auto_sends": 0
+}
